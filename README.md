@@ -1,5 +1,5 @@
 # coding_style
-> My personal C (and others) coding style. 
+> My personal C (and others) coding style standard. 
 
 Tab size **MUST** be **4**.
 
