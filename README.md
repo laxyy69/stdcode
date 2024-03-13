@@ -1,11 +1,9 @@
 # coding_style
 > My personal C (and others) coding style standard. 
 
-Tab size **MUST** be **4**.
-
-Curly bracket `{` on the **NEXT LINE**. After functions, if statements, loops, structures, etc.
-
-Add spaces between operators and operands for clarity and consistency.
+* Tab size **MUST** be **4**.
+* Curly bracket `{` on the **NEXT LINE**. After functions, if statements, loops, structures, etc.
+* Add spaces between operators and operands for clarity and consistency.
 
 # Naming
 * Naming convetions should be concise and descriptive. Generally, aim for brevity while maintaining clarity; avoid single-letter names unless contextually appropiate (e.g. `x`, `y`, `z` for coordinates).
