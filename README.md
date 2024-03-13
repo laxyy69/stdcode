@@ -8,15 +8,12 @@ Curly bracket `{` on the **NEXT LINE**. After functions, if statements, loops, s
 Add spaces between operators and operands for clarity and consistency.
 
 # Naming
-Naming convetions should be concise and descriptive. Generally, aim for brevity while maintaining clarity; avoid single-letter names unless contextually appropiate (e.g. `x`, `y`, `z` for coordinates).
-
-Use lowercase snake_case for functions, variables, structs, etc., except for #define and enums.
-
-Append `_t` after typedefs.
-
-However, typedefing intgers/floats to specific sizes (e.g. `i8`/`u8`, `i16`/`u16`, `i32`/`u32`, `i64`/`u64`, `f32`, `f64`) is acceptable.
-
-Place pointers `*` next to the type name, not variable name:
+* Naming convetions should be concise and descriptive. Generally, aim for brevity while maintaining clarity; avoid single-letter names unless contextually appropiate (e.g. `x`, `y`, `z` for coordinates).
+* Use lowercase snake_case for functions, variables, structs, etc.
+* Use SCREAMING_SNAKE_CASE for #define and enums.
+* Append `_t` after typedefs.
+* However, typedefing intgers/floats to specific sizes (e.g. `i8`/`u8`, `i16`/`u16`, `i32`/`u32`, `i64`/`u64`, `f32`, `f64`) is acceptable.
+* Place pointers `*` next to the type name, not variable name:
 ```c++
 int* ptr; // Correct
 int *ptr; // Incorrent
