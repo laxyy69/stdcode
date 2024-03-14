@@ -1,3 +1,12 @@
+# Table of Contents
+1. [coding_style](#coding_style)
+2. [Naming](#naming)
+3. [Functions](#functions)
+4. [Loops/If statements](#loopsif-statements)
+5. [Spacing](#spacing)
+6. [File Organizations](#file-organizations)
+7. [Future Considerations](#future-considerations)
+
 # coding_style
 > My personal C (and others) coding style standard. 
 
@@ -17,7 +26,6 @@
 int* ptr; // Correct.
 int *ptr; // Incorrect.
 ```
-
 # Functions
 * Use `void` in functions with no arguments.
 * Enclose function bodies with curly brackets on the next line:
@@ -105,7 +113,7 @@ int x=a+b;
 for(int i=0;i<10;i++);
 ```
 
-# File organization
+# File Organizations
 ### File naming
 * File naming conventions should follow the same rules as the coding conventions: use lowercase and undsescore `_` separators (i.e. snake_case).
 ### Directory structure
