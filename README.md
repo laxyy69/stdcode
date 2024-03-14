@@ -122,7 +122,7 @@ for(int i=0;i<10;i++);
 * Place header files in directory named `include`.
 * For different components' source code in your project, use structure: `$COMPONENT_NAME/src` directory.
 * Libraries should reside in a directory called `lib` or `$COMPONENT_NAME/lib`.
-* Build directory should be named `build` and git ingored.
+* Build directory should be named `build` and git ignored.
 
 ```shell
 # Project's root
