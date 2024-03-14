@@ -141,3 +141,20 @@ for(int i=0;i<10;i++);
 |--- lib/          # Common libraries used by more than one component
 |--- build/
 ```
+# Future Considerations
+In this section, guidelines and practices are open to consideration for potential inclusion in future updates to the coding style standard.
+### Return Type and Function Name Separation
+* Consider separating the return type of a function from the function name by placing them on different lines. For example:
+```c++
+int
+add(int a, int b) 
+{
+    return a + b;
+}
+
+static const char*
+function_name(void)
+{
+    /* Function body */
+}
+```
