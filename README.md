@@ -115,7 +115,7 @@ for(int i=0;i<10;i++);
 
 # File Organizations
 ### File naming
-* File naming conventions should follow the same rules as the coding conventions: use lowercase and undsescore `_` separators (i.e. snake_case).
+* File naming conventions should follow the same rules as the coding conventions: use lowercase and underscore `_` separators (i.e. snake_case).
 ### Directory structure
 * Forbid placing source code in the project's root directory.
 * Place source code in a directory named `src`.
