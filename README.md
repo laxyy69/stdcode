@@ -6,15 +6,16 @@
 * Add spaces between operators and operands for clarity and consistency.
 
 # Naming
-* Naming convetions should be concise and descriptive. Generally, aim for brevity while maintaining clarity; avoid single-letter names unless contextually appropiate (e.g. `x`, `y`, `z` for coordinates).
+* Naming conventions should be concise and descriptive. Generally, aim for brevity while maintaining clarity; avoid single-letter names unless contextually appropriate (e.g. `x`, `y`, `z` for coordinates).
 * Use lowercase snake_case for functions, variables, structs, etc.
 * Use SCREAMING_SNAKE_CASE for #define and enums.
+* Use abbreviations frequently to maintain brevity, particularly when naming gets too long, but ensure they are commonly understood within the context of your codebase. If an abbreviation is uncommon, comment the full name near its definition for clarity.
 * Append `_t` after typedefs.
 * However, typedefing integers/floats to specific sizes (e.g. `i8`/`u8`, `i16`/`u16`, `i32`/`u32`, `i64`/`u64`, `f32`, `f64`) is acceptable.
 * Place pointers `*` next to the type name, not variable name:
 ```c++
-int* ptr; // Correct
-int *ptr; // Incorrent
+int* ptr; // Correct.
+int *ptr; // Incorrect.
 ```
 
 # Functions
@@ -33,7 +34,7 @@ void func(){
 }
 ```
 
-# Loops/if statements
+# Loops/If statements
 * Enclose if statements, loops, and do-while loops with curly brackets on the next line. For one-line code without curlies, indentation should align with the control statement.
 ```c++
 /* OK */
