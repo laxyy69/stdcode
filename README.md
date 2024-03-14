@@ -94,7 +94,7 @@ for(int i=0;i<10;i++){
     /* Multi-line code */
 }
 ```
-### Spacing
+# Spacing
 * Add spaces between operators and operands for clarity and consistency.
 ```c++
 /* OK */
