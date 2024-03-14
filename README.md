@@ -78,7 +78,6 @@ do {
     /* Multi-line code */
 } while (condition);
 ```
-### WRONG
 * Avoid placing curly brackets on the same line as the control statement.
 ```c++
 /* WRONG */
