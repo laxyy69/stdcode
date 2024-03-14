@@ -105,3 +105,39 @@ for (int i = 0; i < 10; i++);
 int x=a+b;
 for(int i=0;i<10;i++);
 ```
+
+# File organization
+### File naming
+* File naming conventions should follow the same rules as the coding conventions: use lowercase and undsescore `_` separators (i.e. snake_case).
+### Directory structure
+* Forbid placing source code in the project's root directory.
+* Place source code in a directory named `src`.
+* Place header files in directory named `include`.
+* For different components' source code in your project, use structure: `$COMPONENT_NAME/src` directory.
+* Libraries should reside in a directory called `lib` or `$COMPONENT_NAME/lib`.
+* Build directory should be named `build` and git ingored.
+
+```shell
+# Project's root
+/
+|--- include/header.h
+|--- src/csource.c
+|--- lib/
+|   |--- library_name/
+|       |--- src/csource.c
+|       |--- include/header.h
+|--- build/
+```
+```shell
+# Project's root
+/
+|--- server/
+|   |--- src/
+|   |--- include/
+|   |--- lib/      # Libraries only used by component (e.g. server)
+|--- client/
+|   |--- src/
+|   |--- include/
+|--- lib/          # Common libraries used by more than one component
+|--- build/
+```
