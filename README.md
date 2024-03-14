@@ -10,7 +10,7 @@
 * Use lowercase snake_case for functions, variables, structs, etc.
 * Use SCREAMING_SNAKE_CASE for #define and enums.
 * Append `_t` after typedefs.
-* However, typedefing intgers/floats to specific sizes (e.g. `i8`/`u8`, `i16`/`u16`, `i32`/`u32`, `i64`/`u64`, `f32`, `f64`) is acceptable.
+* However, typedefing integers/floats to specific sizes (e.g. `i8`/`u8`, `i16`/`u16`, `i32`/`u32`, `i64`/`u64`, `f32`, `f64`) is acceptable.
 * Place pointers `*` next to the type name, not variable name:
 ```c++
 int* ptr; // Correct
