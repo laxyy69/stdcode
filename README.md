@@ -158,3 +158,7 @@ function_name(void)
     /* Function body */
 }
 ```
+### Maximum Code Length
+* Considering the inclusion of a guideline specifying a maximum code length, but it has not been decided yet. This guideline would impose a maximum limit on the number of characters per line or the total length of a code block.
+### Commenting convention
+* Considering adding a convention for consistent and descriptive comments.
