@@ -101,6 +101,6 @@ int x = a + b;
 for (int i = 0; i < 10; i++);
 
 /* WRONG */
-int x=a+b
+int x=a+b;
 for(int i=0;i<10;i++);
 ```
