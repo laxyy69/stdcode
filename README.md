@@ -41,6 +41,21 @@ void func(){
     /* Function body */
 }
 ```
+### Return Type and Function Name Separation
+* Separate the return type of a function from the function name by placing them on different lines. For example:
+```c++
+int
+add(int a, int b) 
+{
+    return a + b;
+}
+
+static const char*
+function_name(void)
+{
+    /* Function body */
+}
+```
 
 # Loops/If statements
 * Enclose if statements, loops, and do-while loops with curly brackets on the next line. For one-line code without curlies, indentation should align with the control statement.
@@ -150,21 +165,6 @@ for(int i=0;i<10;i++);
 ```
 # Future Considerations
 In this section, guidelines and practices are open to consideration for potential inclusion in future updates to the coding style standard.
-### Return Type and Function Name Separation
-* Consider separating the return type of a function from the function name by placing them on different lines. For example:
-```c++
-int
-add(int a, int b) 
-{
-    return a + b;
-}
-
-static const char*
-function_name(void)
-{
-    /* Function body */
-}
-```
 ### Maximum Code Length
 * Considering the inclusion of a guideline specifying a maximum code length, but it has not been decided yet. This guideline would impose a maximum limit on the number of characters per line or the total length of a code block.
 ### Commenting convention
