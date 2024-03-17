@@ -5,7 +5,8 @@
 4. [Loops/If statements](#loopsif-statements)
 5. [Spacing](#spacing)
 6. [File Organizations](#file-organizations)
-7. [Future Considerations](#future-considerations)
+7. [Compile Flags](#compile-flags)
+8. [Future Considerations](#future-considerations)
 
 # coding_style
 > My personal C (and others) coding style standard. 
@@ -163,6 +164,10 @@ for(int i=0;i<10;i++);
 |--- lib/          # Common libraries used by more than one component
 |--- build/
 ```
+# Compile Flags
+- **Use warnings as errors**: Enable `-Werror` to treat compiler warnings as errors, promoting strict adherence to coding standards.
+- **Recommended flags `-Werror -Wall -Wextra`**: Use these flags for stricter warning checking during compilation.
+
 # Future Considerations
 In this section, guidelines and practices are open to consideration for potential inclusion in future updates to the coding style standard.
 ### Maximum Code Length
