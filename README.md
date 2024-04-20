@@ -1,5 +1,5 @@
 # Table of Contents
-1. [coding_style](#coding_style)
+1. [stdcode](#stdcode)
 2. [Naming](#naming)
 3. [Functions](#functions)
 4. [Loops/If statements](#loopsif-statements)
@@ -8,8 +8,8 @@
 7. [Compile Flags](#compile-flags)
 8. [Future Considerations](#future-considerations)
 
-# coding_style
-> My personal C (and others) coding style standard. 
+# stdcode
+>## Standard Code: My personal coding style (mainly for C).
 
 * Tab size **MUST** be **4**.
 * Curly bracket `{` on the **NEXT LINE**. After functions, if statements, loops, structures, etc.
